@@ -74,10 +74,10 @@ local loadSec = scriptsTab:Section("Load Game Scripts")
 
 -- swap URLs for your actual scripts
 loadSec:Button({
-    Text = "Load Arsenal Script",
+    Text = "Load Da Hood Lock Script",
     Callback = function()
-        loadstring(game:HttpGet("YOUR_ARSENAL_URL"))()
-        win:Notify("Loaded", "Arsenal script injected", 3)
+        loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/kujodevv/mccheese/refs/heads/main/KUJO"))()"))()
+        win:Notify("Loaded", "Lock script injected", 3)
     end,
 })
 
